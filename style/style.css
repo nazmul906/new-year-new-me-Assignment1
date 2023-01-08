@@ -25,3 +25,55 @@ nav li {
 .textColor {
   color: orange;
 }
+
+/*Header*/
+.header {
+  color: white;
+  background-image: url("../images/banner/banner2.png");
+  background-color: #000002;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-size: 10px 20p; */
+  /* background-image: linear-gradient (white, black); */
+}
+/*Banner*/
+
+.Banner {
+  color: black;
+  padding: 280px;
+  /* display: flex; */
+  /*align-items:center; */
+  /* text-align: left;
+  justify-content: baseline; */
+}
+.mainText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  /* line-height: 76px; */
+  /* text-align: left; */
+  margin-bottom: 24px;
+}
+.subText {
+  color: #444343;
+  font-style: normal;
+
+  line-height: 26px;
+  margin-bottom: 32px;
+  /* or 162% */
+  /* 
+  text-align: right; */
+}
+.btnPrimary {
+  background-color: peru;
+  /* position: absolute; */
+  /* width: 150px;*/
+  height: 56px;
+
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  border: 0;
+  padding: 20px 35px;
+}
