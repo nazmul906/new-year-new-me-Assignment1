@@ -3,25 +3,6 @@
   font-family: "Open Sans", sans-serif;
   /* color: white; */
 }
-/* Navtitle*/
-
-/*Here nav is not any class.Its a TAG*/
-/* nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 200px;
-}
-.NavTitle {
-  font-weight: 800;
-  font-size: 45px;
-}
-nav ul {
-  display: flex;
-}
-nav li {
-  list-style: none;
-  margin-left: 50px;
-} */
 
 .textColor {
   color: orange;
@@ -35,6 +16,8 @@ nav li {
   background-repeat: no-repeat;
   height: 800px;
   width: 1600px;
+  display: flex;
+  justify-content: space-between;
 }
 /*Banner*/
 /* .bakgrnd{} */
@@ -48,35 +31,47 @@ nav li {
   justify-content: baseline; */
 }
 .mainText {
+  width: 525px;
+  height: 228px;
   font-style: normal;
   font-weight: 700;
   font-size: 65px;
-  line-height: 76px;
-  text-align: right;
+
   margin-bottom: 24px;
   color: #151414;
+  margin-left: 445px;
+  font-family: "Work Sans";
+
+  line-height: 76px;
+  text-align: right;
 }
 .subText {
+  width: 494px;
+  height: 78px;
   color: #444343;
   font-style: normal;
-
+  margin-left: 491px;
   line-height: 26px;
   margin-bottom: 32px;
-  /* or 162% */
-  /* 
-  text-align: right; */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: px;
 }
 .btnPrimary {
   background-color: peru;
   /* position: absolute; */
   /* width: 150px;*/
   height: 56px;
-
+  margin-left: 814px;
   font-weight: 600;
   font-size: 20px;
   color: #ffffff;
   border: 0;
   padding: 20px 25px;
+  font-family: "Work Sans";
+  margin-bottom: 190px;
 }
 /*Main*/
 
@@ -282,6 +277,6 @@ main {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-
+  padding: 20px 35px;
   color: #f15b22;
 }
