@@ -137,27 +137,48 @@ main {
   line-height: 29px;
 }
 /*MINDSET section*/
+/* .m {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.gradient {
+  position: relative;
+  top: 0;
+  left: 0;
+} */
+.watch {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .mindset {
-  background-image: url(../images/watch.png);
+  /* background-image: url(../images/watch.png); */
   background-repeat: no-repeat;
+
   width: 1140px;
   height: 300px;
+  background-image: linear-gradient(
+      130deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("../images/watch.png");
 
   left: 230px;
-  /* max-width: 1140px; */
-  /* background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 50%); */
+
   border-radius: 8px;
-  /* margin-right: 230px;
-  margin-left: 230px;
-  margin-top: 125px;
-  margin-bottom: 125px; */
-  padding-top: 60px;
-  padding-bottom: 60px;
+  margin-bottom: 130px;
 }
 .mindsetContainer {
+  /*to adapt size do inspection in browser*/
   width: 459px;
   height: 182px;
-  margin-left: 294px;
+  margin-left: 64px;
+
+  /* margin-bottom: 60px;*/
+
+  padding-top: 60px;
 }
 
 .mindsetText {
