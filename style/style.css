@@ -39,7 +39,8 @@
 
   margin-bottom: 24px;
   color: #151414;
-  margin-left: 445px;
+  /* margin-left: 445px; */
+  margin-left: 371px;
   font-family: "Work Sans";
 
   line-height: 76px;
@@ -50,7 +51,8 @@
   height: 78px;
   color: #444343;
   font-style: normal;
-  margin-left: 491px;
+  /* margin-left: 491px; */
+  margin-left: 432px;
   line-height: 26px;
   margin-bottom: 32px;
   font-family: "Work Sans";
@@ -60,11 +62,13 @@
   margin-bottom: px;
 }
 .btnPrimary {
-  background-color: peru;
+  background: #f15b22;
+  border-radius: 5px;
   /* position: absolute; */
   /* width: 150px;*/
   height: 56px;
-  margin-left: 814px;
+  /* margin-left: 814px; */
+  margin-left: 762px;
   font-weight: 600;
   font-size: 20px;
   color: #ffffff;
@@ -87,6 +91,9 @@ main {
   left: 228px;
 }
 .aboutRightArea {
+  display: flex;
+  flex-direction: column;
+
   padding-left: 87px; /*distance between this div and image div*/
 }
 .aboutTitle {
