@@ -86,19 +86,54 @@ main {
   height: 714.3px;
   left: 228px;
 }
+.aboutRightArea {
+  padding-left: 87px; /*distance between this div and image div*/
+}
 .aboutTitle {
-  /* text-align: center; */
+  width: 288px;
+  height: 92.83px;
   margin-bottom: 24px;
   color: #151414;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
 }
+
 .aboutText {
-  text-align: center;
-  margin-bottom: 16px;
+  /* text-align: center; */
+  margin-bottom: 15px;
   /* line-height: 26px; */
+  color: #444343;
+  width: 416px;
+  height: 102.71px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
   color: #444343;
 }
 .aboutList {
   color: #444343;
+  width: 315px;
+  height: 25.68px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "✓";
+  color: green;
 }
 /*Plan section*/
 .plan {
@@ -114,39 +149,54 @@ main {
 }
 
 .section2Title {
-  margin-bottom: 50px;
   font-weight: 700;
   font-size: 40px;
   color: #151414;
+
+  font-family: "Work Sans";
+  font-style: normal;
+
+  line-height: 47px;
+
+  margin-bottom: 50px;
 }
 .skills-container {
   display: flex;
   justify-content: space-around;
   /* gap: 86px; */
 }
+.skill {
+  text-align: center;
+  margin-bottom: 24px;
+}
 .skill-title {
+  margin-bottom: 16px;
+
+  font-family: "Work Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  /* Dark 01 */
+
+  color: #151414;
 }
 
 .skill-description {
-  color: #737272;
+  font-family: "Work Sans";
+  font-style: normal;
   font-weight: 500;
   font-size: 25px;
   line-height: 29px;
+  text-align: center;
+
+  /* Dark 03 */
+
+  color: #737272;
 }
-/*MINDSET section*/
-/* .m {
-  position: relative;
-  left: 0;
-  top: 0;
-}
-.gradient {
-  position: relative;
-  top: 0;
-  left: 0;
-} */
+
 .watch {
   position: absolute;
   top: 0;
