@@ -76,7 +76,7 @@ nav li {
   font-size: 20px;
   color: #ffffff;
   border: 0;
-  padding: 20px 35px;
+  padding: 20px 25px;
 }
 /*Main*/
 
@@ -141,6 +141,7 @@ main {
   font-size: 25px;
   line-height: 29px;
 }
+/*MINDSET section*/
 .mindset {
   background-image: url(../images/watch.png);
   background-repeat: no-repeat;
@@ -162,4 +163,125 @@ main {
   width: 459px;
   height: 182px;
   margin-left: 294px;
+}
+
+.mindsetText {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 24px; /*between text and button*/
+  color: #ffffff;
+}
+.btnPrimary2 {
+  width: 160px;
+  height: 64px;
+  color: #f15b22; /*coloring call now*/
+  background: #ffffff;
+  border-radius: 5px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: 0;
+  padding: 20px 25px;
+}
+/*Footer Area . Divide the two portion left and right in two div*/
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  background: #151414;
+  /* width: 1600px;*/
+  height: 577px;
+}
+.footerLeft {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  width: 485px;
+  height: 317px;
+}
+.footerLeftTitle {
+  color: #f8f8f8;
+  margin-bottom: 16px;
+  font-family: "Work Sans";
+}
+.footerLeftDescription {
+  color: #f8f8f8;
+  font-family: "Work Sans";
+  font-style: normal;
+  line-height: 26px;
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.email {
+  color: #f8f8f8;
+  font-style: normal;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.phone {
+  color: #f8f8f8;
+  margin-bottom: 32px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.Footericon {
+  width: 175px;
+  height: 46px;
+  display: flex; /* to strecth those icon on their div I apply flex*/
+  justify-content: space-between;
+}
+.footerRight {
+  margin-top: 130px; /* show it In figma Alt + mouse*/
+  margin-bottom: 243px; /* show it In figma Alt + mouse*/
+  width: 325px;
+  height: 204px;
+}
+.footerRightTitle {
+  color: #f8f8f8;
+  margin-bottom: 31px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+}
+.enterEmail {
+  color: #f8f8f8;
+  margin-bottom: 16px;
+  font-family: "Work Sans";
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* Dark 07 */
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 20px;
+  padding-right: 158px;
+  color: #f3f3f3;
+}
+
+.Button3 {
+  font-family: "Work Sans";
+  width: 160px;
+  height: 64px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #f15b22;
 }
