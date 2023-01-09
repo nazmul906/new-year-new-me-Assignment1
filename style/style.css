@@ -1,11 +1,12 @@
 * {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  /* color: white; */
 }
 /* Navtitle*/
 
 /*Here nav is not any class.Its a TAG*/
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   margin: 50px 200px;
@@ -20,7 +21,7 @@ nav ul {
 nav li {
   list-style: none;
   margin-left: 50px;
-}
+} */
 
 .textColor {
   color: orange;
@@ -32,17 +33,16 @@ nav li {
   background-image: url("../images/banner/banner2.png");
   background-color: #000002;
   background-repeat: no-repeat;
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* background-size: 10px 20p; */
-  /* background-image: linear-gradient (white, black); */
+  height: 800px;
+  width: 1600px;
 }
 /*Banner*/
-
+/* .bakgrnd{} */
 .Banner {
   color: black;
   padding: 280px;
   /* display: flex; */
+  /* text-align: right; */
   /*align-items:center; */
   /* text-align: left;
   justify-content: baseline; */
@@ -51,9 +51,10 @@ nav li {
   font-style: normal;
   font-weight: 700;
   font-size: 65px;
-  /* line-height: 76px; */
-  /* text-align: left; */
+  line-height: 76px;
+  text-align: right;
   margin-bottom: 24px;
+  color: #151414;
 }
 .subText {
   color: #444343;
@@ -76,4 +77,89 @@ nav li {
   color: #ffffff;
   border: 0;
   padding: 20px 35px;
+}
+/*Main*/
+
+main {
+  max-width: 1072px;
+  margin: 0 auto;
+}
+.about {
+  display: flex;
+  align-items: center;
+  margin-top: 127px; /*you can find the gap in figma holding alt +mouse */
+  height: 714.3px;
+  left: 228px;
+}
+.aboutTitle {
+  /* text-align: center; */
+  margin-bottom: 24px;
+  color: #151414;
+}
+.aboutText {
+  text-align: center;
+  margin-bottom: 16px;
+  /* line-height: 26px; */
+  color: #444343;
+}
+.aboutList {
+  color: #444343;
+}
+/*Plan section*/
+.plan {
+  margin-top: 119px;
+  /* margin: 0 auto; */
+  /* display: flex; */
+  /* align-items: center; */
+  max-width: 1141px;
+  height: 299.96px;
+  text-align: center;
+  left: 226px;
+  margin-bottom: 122px;
+}
+
+.section2Title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 86px; */
+}
+.skill-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.skill-description {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+}
+.mindset {
+  background-image: url(../images/watch.png);
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+
+  left: 230px;
+  /* max-width: 1140px; */
+  /* background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 50%); */
+  border-radius: 8px;
+  /* margin-right: 230px;
+  margin-left: 230px;
+  margin-top: 125px;
+  margin-bottom: 125px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.mindsetContainer {
+  width: 459px;
+  height: 182px;
+  margin-left: 294px;
 }
